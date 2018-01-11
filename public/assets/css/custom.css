@@ -1,0 +1,129 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, "sans serif";
+	color: black;
+	background-image: url("../images/brushed_alu.png");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*my name*/
+@keyframes myName {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.navbar-brand {
+	background-color: teal;
+	animation-name: myName;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	color: white !important;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+}
+
+.navbar-brand:hover {
+	background-color: teal;
+}
+
+/*navbar links*/
+.spanLink {
+	margin-left: 35%;
+	margin-top: 5%;
+	font-size: 30px;
+}
+
+.mainLink {
+	padding-right: 3%;
+	padding-left: 3%;
+	color: darkblue;
+}
+
+/*sub header*/
+.subHdr {
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+hr {
+	border-color: gray;
+}
+
+/*about me*/
+.aboutImg {
+	float: left;
+	padding: 2%;
+	background-color: white;
+}
+
+.aboutPara {
+	padding: 2%;
+	background-color: white;	
+	font-size: 18px;
+}
+
+/*connect with me*/
+.connect {
+	padding: 5%;
+	background-color: white;
+}
+
+.connectLink {
+	padding: 3%;
+}
+
+.connectImg {
+	height: 75px;
+	width: 75px;
+}
+
+/*footer*/
+footer {
+	background: #666666;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	padding: 20px;
+	border-top: 10px solid teal;
+	font-size: 15px;
+	font-weight: normal;
+	color: white;
+}
+
+/*portfolio gallery*/
+.img-responsive {
+	/*position: relative;*/
+	width: 250px;
+	height: 200px;	
+	float: left;
+	margin: 1%;
+}
+
+.imgs1 {	
+	margin-left: 2%;
+	margin-top: 6%;
+	/*position: absolute;*/
+	display: inline-block;
+	bottom: 20%;
+	left: 8%;
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+	background-color: teal;
+	text-align: center;
+	/*width: 200px;*/
+	padding: 2%;
+	/*line-height: 200%;*/
+}
+
+.emptyRow {
+	margin-bottom: 40px;
+}
