@@ -101,15 +101,15 @@ footer {
 /*portfolio gallery*/
 .img-responsive {
 	/*position: relative;*/
-	width: 250px;
-	height: 200px;	
+	width: 400px;
+	height: 250px;	
 	float: left;
 	margin: 1%;
 }
 
 .imgs1 {	
 	margin-left: 2%;
-	margin-top: 6%;
+	margin-top: 7%;
 	/*position: absolute;*/
 	display: inline-block;
 	bottom: 20%;
